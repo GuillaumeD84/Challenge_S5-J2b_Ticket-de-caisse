@@ -1,0 +1,41 @@
+table.bonus2 {
+  border: 2px solid black;
+  border-collapse: collapse;
+
+  font-family: "Verdana", sans-serif;
+}
+
+table.bonus2 > * {
+  border-color: darkgray;
+}
+
+table.bonus2 tr > * {
+  padding: 0.5em;
+}
+
+table.bonus2 tr:nth-child(2n) {
+  background-color: gainsboro;
+}
+
+table.bonus2 thead {
+  color: white;
+  background-color: gray;
+}
+
+table.bonus2 tfoot {
+  background-color: greenyellow;
+}
+
+table.bonus2 thead th:first-child {
+  text-align: left;
+}
+
+table.bonus2 tbody td:first-child,
+table.bonus2 tfoot {
+  font-weight: 700;
+}
+
+table.bonus2 tbody td:not(:first-child),
+table.bonus2 tfoot {
+  text-align: right;
+}
